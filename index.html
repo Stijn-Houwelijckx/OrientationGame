@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="stylesheet" href="CSS/style.css" />
+
+    <script src="Javascript/motion-helper.js" defer></script>
+    <script src="Javascript/motion.js" defer></script>
+    <script type="module" src="Javascript/Classes/Player.js" defer></script>
+    <script type="module" src="Javascript/Classes/Enemy.js" defer></script>
+    <script type="module" src="Javascript/game.js" defer></script>
+
+    <title>OrientationGame</title>
+  </head>
+  <body>
+    <div class="speedCounters">
+      <p class="speedCounter">
+        X: <span class="speedXCounter">0</span> <br />
+        Y: <span class="speedYCounter">0</span>
+      </p>
+      <button id="motion" type="button" style="width: fit-content">
+        Enable Motion Detection
+      </button>
+    </div>
+    <canvas id="gameCanvas" width="5000" height="5000"></canvas>
+  </body>
+</html>

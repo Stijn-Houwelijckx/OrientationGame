@@ -1,0 +1,61 @@
+body {
+  margin: 0;
+  overflow: hidden; /* Hide scroll bars */
+  touch-action: none; /* Disable touch gestures */
+}
+
+canvas {
+  display: block;
+  background-color: lightgray;
+  border: 1px solid #ccc; /* Optional: add a border for better visibility */
+  background-size: 40px 40px;
+  background-image: linear-gradient(
+      transparent 1px,
+      transparent 39px,
+      #989898 39px,
+      #989898 40px
+    ),
+    linear-gradient(
+      90deg,
+      transparent 1px,
+      transparent 39px,
+      #989898 39px,
+      #989898 40px
+    );
+
+  position: absolute; /* Make sure the canvas is positioned absolutely */
+}
+
+.player {
+  width: 75px;
+  height: 75px;
+  border-radius: 50%; /* Make the player round */
+  background-color: blue;
+  position: relative;
+}
+
+.speedCounters {
+  position: absolute;
+  z-index: 999;
+  left: 50px;
+  top: 50px;
+}
+
+.speedCounter {
+  font-size: 20px;
+
+  margin: 0;
+}
+
+#motion {
+  visibility: hidden;
+}
+
+.enemy {
+  width: 50px;
+  height: 50px;
+  background-color: red; /* Customize enemy appearance */
+  position: absolute;
+
+  z-index: 1;
+}
