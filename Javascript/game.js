@@ -56,13 +56,13 @@ function centerScreenOnPlayer() {
   // console.log("x: " + offsetX.toFixed(2) + " " + "y: " + offsetY.toFixed(2));
 }
 
-console.log(document.documentElement.clientWidth);
-console.log(document.documentElement.clientHeight);
+// console.log(document.documentElement.clientWidth);
+// console.log(document.documentElement.clientHeight);
 
-console.log("calculated width: " + document.documentElement.clientWidth / 1920);
-console.log(
-  "calculated height: " + document.documentElement.clientHeight / 945
-);
+// console.log("calculated width: " + document.documentElement.clientWidth / 1920);
+// console.log(
+//   "calculated height: " + document.documentElement.clientHeight / 945
+// );
 
 // Set checkpoint based on screen size
 function setCheckpoints() {
@@ -100,8 +100,8 @@ function gameLoop() {
 
   centerScreenOnPlayer();
 
-  document.querySelector(".position .posX").innerHTML = offsetX.toFixed(2);
-  document.querySelector(".position .posY").innerHTML = offsetY.toFixed(2);
+  // document.querySelector(".position .posX").innerHTML = offsetX.toFixed(2);
+  // document.querySelector(".position .posY").innerHTML = offsetY.toFixed(2);
 
   checkpoint(offsetX, offsetY);
 }

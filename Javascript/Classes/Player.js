@@ -23,8 +23,8 @@ export default class Player {
     this.element.style.left = this.x + "px";
     this.element.style.top = this.y + "px";
 
-    document.querySelector(".speedXCounter").innerHTML = this.speedX.toFixed(2);
-    document.querySelector(".speedYCounter").innerHTML = this.speedY.toFixed(2);
+    // document.querySelector(".speedXCounter").innerHTML = this.speedX.toFixed(2);
+    // document.querySelector(".speedYCounter").innerHTML = this.speedY.toFixed(2);
   }
 
   setDirection(direction, value) {

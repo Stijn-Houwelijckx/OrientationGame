@@ -83,13 +83,15 @@ canvas {
 .center-text {
   position: absolute;
   z-index: 999;
-  top: 8%;
+  top: 10%;
   left: 50%;
   transform: translate(-50%, -50%);
 
   display: flex;
   flex-direction: column;
   align-items: center;
+
+  width: 100%;
 }
 
 .checkpointText,
