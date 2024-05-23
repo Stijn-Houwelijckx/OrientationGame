@@ -7,8 +7,8 @@ export default class Enemy {
     this.speedY = 2; // Adjust enemy speed as needed
     this.element = document.createElement("div");
     this.element.classList.add("enemy");
-    // document.body.appendChild(this.element);
     document.body.appendChild(this.element);
+    // document.getElementById("gameContainer").appendChild(this.element);
     this.draw();
   }
 

@@ -15,7 +15,7 @@ export default class Player {
     this.isMovingRight = false;
     this.element = document.createElement("div");
     this.element.classList.add("player");
-    document.body.appendChild(this.element);
+    document.getElementById("gameContainer").appendChild(this.element);
     this.draw();
   }
 
