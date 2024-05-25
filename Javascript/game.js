@@ -266,11 +266,11 @@ function handleKeyUp(event) {
 }
 
 // Add event listener for device orientation
-// window.addEventListener("deviceorientation", handleDeviceOrientation);
+window.addEventListener("deviceorientation", handleDeviceOrientation);
 
 // Add event listener for arrow key events
-window.addEventListener("keydown", handleArrowKeys);
-window.addEventListener("keyup", handleKeyUp);
+// window.addEventListener("keydown", handleArrowKeys);
+// window.addEventListener("keyup", handleKeyUp);
 
 // Start the game loop
 gameLoop();

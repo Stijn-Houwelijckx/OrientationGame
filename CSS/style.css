@@ -57,7 +57,28 @@ canvas {
 }
 
 #motion {
-  visibility: hidden;
+  visibility: visible;
+  position: absolute;
+
+  z-index: 999;
+
+  bottom: 3%;
+  left: 50%;
+
+  transform: translateX(-50%);
+
+  padding: 8px 12px;
+
+  border: none;
+
+  background-color: forestgreen;
+  color: white;
+
+  font-size: 16px;
+  font-weight: bold;
+  border-radius: 360px;
+
+  width: fit-content;
 }
 
 /* .enemy {
